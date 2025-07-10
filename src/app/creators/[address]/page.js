@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, use } from "react";
+import { ethers } from "ethers";
 
 const message = "OnchainFans";
 
@@ -27,6 +28,13 @@ export default function Creator({ params }) {
     init();
   }, [address]);
 
+  const connectWallet = async () => {
+    const provider = new ethers.BrowserProvider(window.ethereum);
+    const signer = await provider.getSigner();
+    setSigner(signer);
+    const signature = await signer.signMessage(message);
+    setSignature(signature);
+  };
 
   return (
     <main className="container text-center">
