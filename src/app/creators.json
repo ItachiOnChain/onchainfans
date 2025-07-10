@@ -1,0 +1,17 @@
+{
+    "0x7b8c5f0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h": {
+        "address": "0x7b8c5f0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5g6h",
+        "name": "OnchainFans",
+        "description": "Access Exclusive Content from Your Favorite Creators"
+    },
+    "0x1234567890abcdef1234567890abcdef12345678": {
+        "address": "0x1234567890abcdef1234567890abcdef12345678",
+        "name": "CryptoCreator",
+        "description": "Exclusive insights and content from the world of crypto."
+    },
+    "0xabcdefabcdefabcdefabcdefabcdefabcdefabcd": {
+        "address": "0xabcdefabcdefabcdefabcdefabcdefabcdefabcd",
+        "name": "BlockchainArtist",
+        "description": "Art and NFTs on the blockchain, bringing creativity to the digital world."
+    }
+}
